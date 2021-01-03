@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation-bar{
+    width: 100%;
+    background: #333333;
+    position: fixed;
+}
+
+ul{
+    display: block;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    height: 10vh;
+    width:20vw;
+}
+
+li a{
+    display: grid;
+    height: 100%;
+    width:100%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    
+}
+
+li a:hover{
+    animation: hover2 .5s forwards ease-out;
+}
+
+li a p{
+    display: grid;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+#profile{
+    margin-top: 15vh;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    border-color: black;
+    border: solid;
+    border-width: 7px;
+}
+.bio{
+    text-align: center;
+    width:75%;
+    margin-left: 12.5%;
+}
+.bio-header{
+    font-size: 30px;
+    margin-top: 5vh;
+}
+.bio-text{
+    font-size:20px;
+}
+.project{
+    display: block;
+    width:75vw;
+    height:20vw;
+    margin-left:12.5vw;
+    margin-top:5vh;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+    
+}
+
+.project img{
+    display:inline-block;
+    float: left;
+    width:20vw;
+    height:20vw;
+}
+
+.project-text{
+    display:grid;
+    float: left;
+    width:28vw;
+    padding:1vw;
+    height:18vw;
+}
+
+.project-text div{
+    margin: auto;
+}
+
+.project-text div p{
+    overflow:hidden;
+}
+
+.project-text-header{
+    margin-top: 1vw;
+    font-size: 20px;
+}
+.project-text-body{
+    margin-top:1vw;
+    font-size:15px;
+}
+
+.project-link{
+    display:grid;
+    align-content: center;
+    width:25vw;
+    height:20vw;
+}
+
+.project-link a{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    border-radius:1vw;
+    width: 15vw;
+    height: 4vw;
+}
+
+.project-link a p{
+    display:block;
+    margin:auto;
+    color:white;
+    font-size: 17px;
+}
+
+.github{
+    background: red;
+}
+
+.other{
+    background: blue;
+}
+
+.replit{
+    background: #333333;
+}
+
+.processing{
+    background: orange;
+}
+
+.project:hover{
+    animation: hover1 .5s forwards ease-out;
+}
+
+.line{
+    width:75vw;
+    margin-left: 12.5vw;
+    border:solid;
+    border-color:black;
+    border-width: 1px;
+    border-radius:1px;
+}
+
+#Contact{
+    font-size: 45px;
+    margin-top: 5vh;
+}
+
+#contact-container{
+    width:75vw;
+    margin-left: 12.5vw;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    box-shadow: 0 4px 8px 0 #333333, 0 6px 20px 0 #333333;
+    margin-bottom: 10vh;
+}
+
+.contacts{
+    font-size: 30px;
+    margin-top: 2vh;
+}
+
+
+@keyframes hover1{
+    0%{
+        box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+    }
+    100%{
+        box-shadow: 0 4px 8px 0 #333333, 0 6px 20px 0 #333333;
+    }
+}
+@keyframes hover2{
+    0%{
+        background: #333333;
+    }
+    100%{
+        background: #111111;
+    }
+}
