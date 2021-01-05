@@ -40,6 +40,7 @@ li a:hover{
 }
 
 li a p{
+    font-size: 20px;
     display: grid;
     height: auto;
     width: auto;
@@ -53,9 +54,11 @@ li a p{
     width: 30vw;
     height: 30vw;
     border-radius: 50%;
-    border-color: black;
-    border: solid;
+    border-color: white;
+    border: none;
     border-width: 7px;
+    box-shadow: 0 4px 8px 0 #333333, 0 6px 20px 0 #333333;
+   
 }
 .bio{
     text-align: center;
@@ -133,7 +136,7 @@ li a p{
     display:block;
     margin:auto;
     color:white;
-    font-size: 17px;
+    font-size: 2vw;
 }
 
 .github{
@@ -174,16 +177,16 @@ li a p{
     width:75vw;
     margin-left: 12.5vw;
     padding-top: 2vh;
-    padding-bottom: 3vh;
-    box-shadow: 0 4px 8px 0 #333333, 0 6px 20px 0 #333333;
-    margin-bottom: 10vh;
+    padding-bottom: 3vh;margin-bottom: 10vh;
 }
 
+#contact-container:hover{
+  animation: hover1 .5s forwards ease-out;
+}
 .contacts{
     font-size: 30px;
     margin-top: 2vh;
 }
-
 
 @keyframes hover1{
     0%{
@@ -201,3 +204,4 @@ li a p{
         background: #111111;
     }
 }
+
